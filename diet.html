@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Optimized Diet Plans and Mental Health Tips for Bodybuilding">
+    <title>Diet Plans & Mental Health</title>
+    <link rel="stylesheet" id="stylesheet" href="styles1.css">
+    <script>
+        function changeStyle(sheet) {
+            document.getElementById('stylesheet').setAttribute('href', sheet);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#workouts">Workouts</a></li>
+                <li><a href="diet.html">Diet Plans</a></li>
+                <li><a href="diet.html#mental-health">Mental Health</a></li>
+                <li><a href="#">Weekly Challenges</a></li>
+            </ul>
+        </nav>
+        <h1>Fuel Your Body for Maximum Gains</h1>
+        <label for="style-select">Select Style:</label>
+        <select id="style-select" onchange="changeStyle(this.value)">
+            <option value="styles1.css">Style 1</option>
+            <option value="styles2.css">Style 2</option>
+            <option value="styles3.css">Style 3</option>
+        </select>
+    </header>
+
+    <main>
+        <section id="diet-plans">
+            <h2>Optimized Diet Plans for Muscle Growth</h2>
+            <p>A balanced diet plays a crucial role in muscle development. Our diet plans focus on providing the right macronutrients in each meal to support muscle repair and growth.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Meal</th>
+                        <th>Calories</th>
+                        <th>Protein</th>
+                        <th>Carbs</th>
+                        <th>Fats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Breakfast</td>
+                        <td>500</td>
+                        <td>30g</td>
+                        <td>60g</td>
+                        <td>15g</td>
+                    </tr>
+                    <tr>
+                        <td>Lunch</td>
+                        <td>700</td>
+                        <td>40g</td>
+                        <td>80g</td>
+                        <td>20g</td>
+                    </tr>
+                    <tr>
+                        <td>Dinner</td>
+                        <td>600</td>
+                        <td>35g</td>
+                        <td>70g</td>
+                        <td>18g</td>
+                    </tr>
+                    <tr>
+                        <td>Post-Workout Snack</td>
+                        <td>300</td>
+                        <td>25g</td>
+                        <td>40g</td>
+                        <td>10g</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="diet1.jpeg" alt="Diet image">
+        </section>
+
+        <section id="mental-health">
+            <h2>Mental Health for Bodybuilders</h2>
+            <p>Mental health is an often-overlooked aspect of bodybuilding. Stress and burnout can hinder muscle recovery and growth. Learn how to manage stress, practice mindfulness, and maintain a healthy mindset throughout your bodybuilding journey.</p>
+            <ul>
+                <li>Mindfulness Techniques</li>
+                <li>Managing Workout Anxiety</li>
+                <li>Building a Positive Body Image</li>
+                <li>Finding Balance Between Work and Gym</li>
+            </ul>
+            <img src="mentalhealth1.jpeg" alt="Mental Health image">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bodybuilding Optimization. All rights reserved.</p>
+    </footer>
+</body>
+</html>
